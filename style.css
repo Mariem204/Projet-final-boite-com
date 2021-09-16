@@ -1,0 +1,382 @@
+
+/*nathem el css */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Nav bar*/
+
+    /*photo d'acceuil*/
+    
+  /*Nav bar*/
+.ul,li{
+  
+  display: inline-block;
+  color: rgb(2, 2, 2);
+}
+ul {
+  float:right;
+  
+}
+li {
+  margin:20px;
+
+  
+}
+.logo{
+  width: 7%;
+  margin-top: -25px;
+  
+}
+.search { 
+  margin-left: 600px;
+  margin-top: -60px;
+
+}
+.nav{
+  padding:1.5em 0;
+  box-shadow: 0px 8px 8px rgba(128, 128, 128, 0.425);
+  font-size:1em;        
+  position:absolute;
+  z-index: 1;
+  background-color:transparent;
+  width: 100%;
+  height: 80px;
+  max-width:100%;
+
+}
+    
+        .count{
+            background: url("../photos/welcome.jpg");
+            color: blanchedalmond;
+            background-repeat: no-repeat;
+            height: 600px;
+            align-items: center;
+            font-family: nike combat stencil;
+            justify-content: center;
+            display: flex;
+            background-size: 100%;
+            max-width:100%;
+        
+        }
+        
+        .color-overlay{background: linear-gradient(to top right , #E71D36 , blue);
+    width: 100%;
+    height: 98%;
+    opacity: .6;
+    position: absolute;
+    max-width:100%;
+
+  }
+    
+    /*End photo d'acceuil*/
+    
+      
+      
+/**/
+
+
+.deconstructed {
+  position: relative;
+  margin: auto;
+  height: 130px;
+  color: transparent;
+  font-family: 'Cambay', sans-serif;
+  font-size: 10vw;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.03em;
+  margin-top: -350px;
+  margin-left: 300px;
+}
+
+.deconstructed > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fffff7;
+  pointer-events: none;
+}
+
+.deconstructed > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 5s infinite;
+}
+
+.deconstructed > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  animation: deconstructed2 5s infinite;
+}
+
+.deconstructed > div:nth-child(3) {
+   -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  animation: deconstructed3 5s infinite;
+}
+
+.deconstructed > div:nth-child(4) {
+   -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 5s infinite;
+}
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+  26% {
+    transform: translateX(0%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateX(100%);
+  }
+  24% {
+    transform: translateX(0.5%);
+  }
+  82% {
+    transform: translateX(-0.2%);
+  }
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateX(100%);
+  }
+  22% {
+    transform: translateX(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateX(100%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-135%);
+  }
+}
+   
+
+    /*section 1*/
+.center{
+    text-align: center;
+    margin-top: 500px;
+}    /*end section 1*/
+
+    /*section 2*/
+.section {
+float: right;
+margin-right: 50px;
+}
+.text{
+    width:50%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+    
+}
+.centerr{ 
+width: 100%;
+margin-top: 30px;
+margin-left: 500px;
+z-index: 1;
+}
+.row {
+  width:100%;
+}
+.top{
+margin-top: 30px;
+}
+.boxy{
+    width: 100%;
+    height:400px;
+    background-color:rgba(248, 246, 246, 0.979);
+    box-sizing: content-box; 
+}
+    /*end section 2*/
+
+    /*services*/
+.card {
+    margin-left: 30px;
+    margin-top:40px;
+}
+.card:hover {
+    background-color: #2EC4B6;
+}
+    /*end services*/
+    /*PRICES*/
+.btnn {display: flex;
+flex-direction: column;
+width:80%;
+justify-content: space-around;
+
+}
+.btn:hover {color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3 , 0 0 40px #2196f3, 0 0 80px #2196f3;}
+.out{width:350px;}
+.card-bodyy {display: flex;
+}
+    
+    /*contact us*/
+.box{
+    width: 90%;
+    height:400px;
+    background: linear-gradient(to top right , #e71d359b , rgba(0, 0, 255, 0.493));
+    box-sizing: content-box;
+    margin-left: 50px;
+    
+}
+.image{
+margin-left: 0px;
+}
+.form {
+width: 30%;
+float: right;
+margin-top: -330px;
+margin-right: 200px;
+}
+.sub{
+float: right;
+width: 40%;
+margin-top: -390px;
+margin-right: 50px;
+}
+    /*end contact us*/
+
+
+.carousel {
+margin-top: 100px;
+width: 98%;
+}
+
+
+/*testimonials*/
+.sc{
+    display: flex;
+   width: 100%;
+}
+.images {
+    flex-direction:row;
+    display: flex;
+}
+.column {
+    flex-direction:column;
+    z-index: -1;
+}
+
+
+/*footer*/
+.map{
+    float: right;
+margin-right: 20px;
+margin-top: -200px;
+z-index: 1;
+position: relative;
+}
+
+
+.contenu{
+    max-width: 1170px;
+    margin:auto;
+}
+.roww{
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+.footer{
+ background-color: #2EC4B6;
+padding: 70px 0;
+height: 250px;
+}
+.footer-col {
+    width: 25%;
+padding : 0 15px;
+margin-top: -30px;
+margin-left: 30px;
+}
+.footer-col h4 {
+ font-size: 20px;
+color: black;
+text-transform: capitalize;
+margin-bottom: 10px;
+font-weight: 500;
+margin-left: 45px;
+}
+
+.icons {
+    margin-left: 50px;
+display: flex;
+flex-direction: column;
+width: 10%;
+
+}
+.space{margin: 50px;
+margin-top: auto;
+margin-left: 25px;}
+
+.boxxy{
+    height: 50px;
+    background-color: #dbdbdbb9;
+margin-top: 0px;
+}
+.footer-col {z-index: 1;
+margin-top: 0;}
+.countent{
+  background: url("../photos/footer.png");
+  color: blanchedalmond;
+  background-repeat: no-repeat;
+  height: 200px;
+  align-items: center;
+  font-family: nike combat stencil;
+  justify-content: center;
+  display: flex;
+  background-size: 100%;
+  margin-top: -210px;
+
+
+}
+
+.colorr-overlay{background: linear-gradient(to top right , #E71D36 , blue);
+width: 100%;
+height: 200px;
+opacity: .6;
+position: absolute;
+
+
+}
+
+/*footer*/
